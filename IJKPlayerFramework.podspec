@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IJKPlayerFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A custom framework of IJKPlayer"
 
   spec.description  = <<-DESC
@@ -31,7 +31,7 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
 
   spec.ios.deployment_target = "8.0"
 
-  spec.source       = { :git => "https://github.com/iatnam-ios/IJKMediaFramework.git", :tag => spec.version }
+  spec.source       = { :git => "https://mantai@bitbucket.org/mantai/ijkmediaframework.git", :tag => spec.version }
 
   spec.vendored_frameworks = 'IJKMediaFramework/Classes/IJKMediaFramework.framework'
 
